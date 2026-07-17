@@ -2,40 +2,39 @@
 
 This matrix controls what may be claimed in a CV, application, or public portfolio. It is intentionally conservative.
 
-| Unit | Evidence-supported description | Contribution label | Portfolio use | Remaining action |
-|---|---|---|---|---|
-| Ex01 | Tabular regression exercises; preprocessing, train/test split, and error metrics | Individual coursework with peer review | Foundation | Add dataset/license and concise result summary |
-| Ex02 | House-price prediction based substantially on provided baseline | Individual coursework / provided baseline | Archive or foundation | Document exactly what changed from baseline |
-| Ex03 | Facial landmark placement and transformation-aware image processing | Individual coursework with peer review | Selected | Add reproducible run instructions |
-| Ex04 | Object detection/segmentation, masks, background manipulation, and debugging | Individual coursework with peer review | Selected | Add data/model attribution |
-| Ex05 | Korean sentiment preprocessing and LSTM/Conv1D/GlobalMaxPooling comparisons | Individual coursework with peer review | Selected | Verify final metrics before quoting them |
-| Ex06 | Sequence-to-sequence summarization with attention | Coursework; README evidence incomplete | Supporting | Complete authorship and result summary |
-| Ex07 | Subword tokenization and encoder–decoder Transformer chatbot | Individual coursework with peer review | Selected | Add dataset/license and environment |
-| GD01 | ResNet-50 versus PlainNet-50 ablation and skip-connection interpretation | Individual coursework with peer review | Featured | Add exact reproducibility details |
-| GD02 | Normalization, augmentation, CutMix/MixUp, and model persistence | Individual coursework with peer review | Featured | Summarize controlled comparison |
-| GD03 | CAM/Grad-CAM visualization, localization correction, and IoU inspection | Individual coursework with peer review | Featured | Separate completed and exploratory extensions |
-| GD04 | Unverified unit | Unverified | Exclude | Inspect notebook and replace template README |
-| GD05 | TFRecord, prior boxes, SSD face detection, and score debugging | Individual coursework with peer review | Selected | Add model/data attribution |
-| GD06 | Unverified unit | Unverified | Exclude | Inspect notebook and replace template README |
-| GD07 | U-Net/U-Net++ implementation and exploratory lung-segmentation extension | Coursework with peer review | Featured after provenance correction | Correct coder-name typo; avoid clinical-performance claims |
-| GD08 | SimpleBaseline pose estimation and direct ResNet-block implementation | Coursework with peer review | Selected after provenance correction | Correct coder-name typo and document dataset |
-| GD09 | Unverified unit | Unverified | Exclude | Inspect notebook and replace template README |
-| MainQuest 01 | Subword preprocessing and GPT-style decoder-only dialogue model | Coursework; README evidence incomplete | Selected after documentation | Add contribution, dataset, result, and limitations |
-| MainQuest 02 | Limited-data lung-image segmentation and architecture comparison | Coursework; README evidence incomplete | Selected after documentation | Add contribution, split, metrics, and data provenance |
-| MainQuest 03–05 | No verified completion evidence in current README files | Unverified | Exclude | Inspect notebook contents before naming or claiming completion |
+| Unit | Evidence-supported description | Contribution boundary | Portfolio use |
+|---|---|---|---|
+| Ex01-A | Manual diabetes linear-regression model, MSE gradient, and learning-rate comparison | Individual coursework; unit-level named review | Foundation |
+| Ex01-B | Bike-demand regression with datetime features and leakage-column removal | Coursework; notebook-specific authorship not separated | Foundation |
+| Ex02 | KAKR house-price preprocessing, stacking, LightGBM, and search | Adapted LMS/Kaggle baseline; exact individual delta unclear | Foundation |
+| Ex03 | Transformation-aware facial-landmark sticker placement | Individual coursework with named review | Selected |
+| Ex04 | DeepLab-based masks, background blur, and multi-object experiments | Pretrained model/course scaffold; replacement incomplete | Selected |
+| Ex05 | Mecab preprocessing and LSTM/Conv1D/GlobalMaxPooling comparisons | Individual coursework with named review | Selected |
+| Ex06 | Attention seq2seq abstractive and Summa extractive summarization | Executed course scaffold; coder/reviewer record absent | Supporting |
+| Ex07 | SentencePiece encoder-decoder Transformer with padding-aware loss | Individual coursework with named review | Selected |
+| GD01 | ResNet-34/50 versus PlainNet-34/50 ablation | Individual coursework with named review | Featured training evidence |
+| GD02 | Standard augmentation versus CutMix/MixUp on Stanford Dogs | Training work; some experiments distributed among peers | Selected |
+| GD03 | CAM/Grad-CAM localization and IoU inspection | Core work complete; guided extensions incomplete | Featured training evidence |
+| GD04 | Keras-OCR detection and CRNN/CTC recognition | Training workflow; final weight use and quality incomplete | Supporting |
+| GD05 | WIDER FACE TFRecords, priors, SSD detection, and sticker overlay | Individual coursework with named review | Selected |
+| GD06 | KITTI RetinaNet/FPN/focal-loss GO/STOP prototype | Course prototype; no safety validation | Selected |
+| GD07-A | KITTI road segmentation with U-Net/U-Net++ and Dice/IoU | Coursework with peer review | Featured training evidence |
+| GD07-B | Exploratory U-Net lung-segmentation extension | Exploratory training only; no clinical claim | Supporting |
+| GD08 | MPII Stacked Hourglass versus SimpleBaseline comparison | Coursework with peer review; weak/overfit results retained | Selected |
+| Quest01 | Decoder-only Transformer exercise on Cornell Movie Dialogs | Training artifact; prompt conditioning is defective | Supporting |
+| Quest02 | Small-sample chest-X-ray U-Net encoder comparison | Training artifact; individual/team contribution unverified | Selected after provenance clarification |
 
 ## Claim levels
 
-- **Featured:** code, result, authorship, and peer-review evidence are present; still describe it as training.
-- **Selected:** useful technical evidence, but documentation or reproducibility needs improvement.
-- **Supporting/Foundation:** demonstrates breadth but should not occupy a pinned-project slot.
-- **Exclude:** do not describe as completed until evidence is added.
+- **Featured training evidence:** strong implementation or experimental-design evidence, still described as education rather than independent research.
+- **Selected:** technically relevant evidence with documentation, reproducibility, or result limitations.
+- **Supporting/Foundation:** breadth evidence that should not lead a research application.
 
 ## Prohibited claims
 
 - Clinically validated medical model
+- CT segmentation experience based on the Quest02 chest-X-ray project
 - Completed external or multicenter validation through AIFFEL
-- Sole authorship of team or peer repositories
-- Production MLOps system
-- Performance values that have not been re-run and verified
-
+- Sole authorship where the repository does not establish it
+- Production or safety-critical readiness
+- Performance values that have not been independently re-run and verified

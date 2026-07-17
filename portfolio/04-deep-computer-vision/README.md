@@ -1,13 +1,14 @@
 # Deep Computer Vision
 
-Architecture comparison, augmentation, explainability, detection, segmentation, and pose-estimation work from the AIFFEL `GoingDeeper` track.
+Architecture comparison, augmentation, explainability, OCR, detection, segmentation, and pose estimation from the AIFFEL GoingDeeper track.
 
-- [GD01](../../GoingDeeper/GD01): ResNet-50 versus PlainNet-50 ablation.
-- [GD02](../../GoingDeeper/GD02): normalization, conventional augmentation, CutMix, and MixUp.
-- [GD03](../../GoingDeeper/GD03): CAM/Grad-CAM feature maps, localization correction, and IoU inspection.
-- [GD05](../../GoingDeeper/GD05): TFRecord/prior-box preparation and SSD face detection.
-- [GD07](../../GoingDeeper/GD07): U-Net/U-Net++ segmentation and an exploratory lung-segmentation extension.
-- [GD08](../../GoingDeeper/GD08): SimpleBaseline pose estimation and direct ResNet-block implementation.
+- [ResNet/PlainNet Ablation](../../going-deeper/01-resnet-plainnet-ablation/): Cats-vs-dogs comparison across 34- and 50-layer residual and plain networks.
+- [Stanford Dogs Augmentation](../../going-deeper/02-stanford-dogs-augmentation/): standard augmentation, CutMix, and MixUp comparison.
+- [CAM/Grad-CAM Localization](../../going-deeper/03-cam-gradcam-localization/): activation maps, bounding boxes, and IoU inspection.
+- [End-to-End OCR](../../going-deeper/04-end-to-end-ocr/): Keras-OCR detection and CRNN/CTC recognition; final recognition quality remained incomplete.
+- [SSD Face Detection](../../going-deeper/05-ssd-face-detection/): WIDER FACE, priors, SSD, landmarks, and sticker overlay.
+- [RetinaNet GO/STOP Detection](../../going-deeper/06-retinanet-go-stop-detection/): KITTI, FPN, focal loss, decoded detections, and rule-based decisions; not safety validated.
+- [U-Net/U-Net++ Segmentation](../../going-deeper/07-unet-unetpp-segmentation/): KITTI road segmentation plus an exploratory lung-segmentation extension.
+- [Human Pose Estimation](../../going-deeper/08-human-pose-estimation/): MPII Stacked Hourglass versus SimpleBaseline comparison with overfitting/weak-output limitations retained.
 
-`GD04`, `GD06`, and `GD09` remain excluded from featured claims until their notebook contents and provenance are documented. The coder-name typos in `GD07` and `GD08` should also be corrected before those units are used externally.
-
+All items are training evidence. They do not establish clinical validation, deployment readiness, or sole authorship beyond the available course records.
