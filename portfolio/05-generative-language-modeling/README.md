@@ -1,6 +1,5 @@
 # Generative Language Modeling
 
-- [MainQuest Quest01](../../MainQuest/Quest01): subword preprocessing and a GPT-style decoder-only dialogue model.
+- [GPT-Style Dialogue Language Model](../../main-quest/01-gpt-style-dialogue-language-model/): decoder-only Transformer exercise on the Cornell Movie-Dialogs Corpus.
 
-The notebook provides implementation evidence, while the current project README remains an unfilled template. Contribution, dataset provenance, verified results, and limitations should be documented before the project is featured in an application.
-
+The notebook demonstrates language-model components and partial training. A documented implementation defect means the supplied prompt does not condition generation, so this artifact is not presented as a functioning chatbot.

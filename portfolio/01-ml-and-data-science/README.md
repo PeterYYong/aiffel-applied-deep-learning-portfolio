@@ -1,9 +1,8 @@
 # Machine Learning and Data Science
 
-Foundational tabular modeling work from the AIFFEL `Exploration` track.
+Foundational tabular modeling work from the AIFFEL Exploration track.
 
-- [Exploration Ex01](../../Exploration/Ex01): diabetes and bike-demand regression exercises, preprocessing, train/test splitting, and error metrics.
-- [Exploration Ex02](../../Exploration/Ex02): house-price prediction based substantially on a provided baseline; the individual delta requires clearer documentation.
+- [Linear Regression Projects](../../exploration/01-linear-regression-projects/): diabetes regression implemented with a manual MSE gradient, plus bike-sharing demand regression with datetime features and leakage-column removal.
+- [KAKR House-Price Prediction](../../exploration/02-kakr-house-price-prediction/): preprocessing, feature selection, stacking, LightGBM, and hyperparameter search based substantially on a course/Kaggle baseline.
 
-These are training projects. Dataset provenance, baseline attribution, and re-run metrics should be completed before detailed results are quoted.
-
+These are training projects. Dataset provenance, baseline attribution, and independently re-run results are required before quoting metrics externally.

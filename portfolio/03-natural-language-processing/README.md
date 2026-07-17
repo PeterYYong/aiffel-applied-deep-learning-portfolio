@@ -1,10 +1,9 @@
 # Natural Language Processing
 
-Text preprocessing, sequence modeling, attention, and Transformer experiments from the AIFFEL `Exploration` track.
+Text preprocessing, sequence modeling, attention, and Transformer experiments from the AIFFEL Exploration track.
 
-- [Exploration Ex05](../../Exploration/Ex05): Korean sentiment classification using morphological preprocessing and LSTM/Conv1D/GlobalMaxPooling models.
-- [Exploration Ex06](../../Exploration/Ex06): abstractive text summarization with sequence-to-sequence attention; documentation remains incomplete.
-- [Exploration Ex07](../../Exploration/Ex07): subword tokenization and an encoder–decoder Transformer chatbot, including custom loss/checkpoint workflows.
+- [Naver Movie-Review Sentiment](../../exploration/05-korean-movie-review-sentiment/): Mecab preprocessing and LSTM, Conv1D, GlobalMaxPooling, and Word2Vec comparisons.
+- [News Summarization](../../exploration/06-news-summarization/): attention-based seq2seq abstractive summarization and Summa extractive summarization; individual contribution documentation is incomplete.
+- [SentencePiece Transformer Chatbot](../../exploration/07-transformer-chatbot/): subword tokenization, encoder-decoder Transformer, padding-aware loss, and checkpointing.
 
-These projects demonstrate training breadth; they are not presented as independent NLP research.
-
+These artifacts demonstrate training breadth, not independent NLP research or production readiness.

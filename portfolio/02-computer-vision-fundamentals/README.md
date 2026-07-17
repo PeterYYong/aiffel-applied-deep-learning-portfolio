@@ -1,9 +1,8 @@
 # Computer Vision Fundamentals
 
-Image preprocessing, landmark placement, segmentation masks, and transformation experiments from the AIFFEL `Exploration` track.
+Image preprocessing, landmark placement, segmentation masks, and compositing experiments from the AIFFEL Exploration track.
 
-- [Exploration Ex03](../../Exploration/Ex03): facial landmark augmentation and transformation-aware placement, including failure handling.
-- [Exploration Ex04](../../Exploration/Ex04): object segmentation, mask construction, background effects, debugging, and additional image experiments.
+- [Facial-Landmark Sticker App](../../exploration/03-facial-landmark-sticker-app/): dlib landmarks and transformation-aware sticker placement.
+- [Semantic-Segmentation Background Effects](../../exploration/04-semantic-segmentation-background-effects/): pretrained DeepLab masks, blur/compositing, and multi-object experiments. Background replacement remained incomplete.
 
-Both projects are retained as individual coursework with named peer-review evidence.
-
+Both are course projects with pretrained components and named peer-review evidence.
