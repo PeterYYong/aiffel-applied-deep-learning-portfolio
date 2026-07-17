@@ -1,7 +1,7 @@
 # AIFFEL Applied Deep Learning Portfolio
 
-> **Category:** Structured training portfolio  
-> **Program:** AIFFEL Research Program, October 2024–April 2025  
+> **Category:** Structured training portfolio
+> **Program:** AIFFEL Research Program, October 2024–April 2025
 > **Scope:** Machine learning, computer vision, natural language processing, and deep learning experiments
 
 This repository presents evidence from the AIFFEL Research Program as a topic-based technical portfolio. Descriptive paths replace opaque course-only names, while the original track and unit identifiers remain documented in the [notebook and provenance index](docs/notebook-index.md).

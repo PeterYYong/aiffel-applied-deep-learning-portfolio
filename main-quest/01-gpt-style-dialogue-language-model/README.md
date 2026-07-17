@@ -1,7 +1,7 @@
 # GPT-Style Language Modeling on Movie Dialogue
 
-> **Category:** AIFFEL training project  
-> **Curriculum unit:** AIFFEL Research Program / MainQuest / Quest01  
+> **Category:** AIFFEL training project
+> **Curriculum unit:** AIFFEL Research Program / MainQuest / Quest01
 > **Artifact:** [`gpt-style-dialogue-language-model.ipynb`](gpt-style-dialogue-language-model.ipynb)
 
 ## Project scope

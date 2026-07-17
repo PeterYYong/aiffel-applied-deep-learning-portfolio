@@ -1,7 +1,7 @@
 # Limited-Data Lung X-Ray Segmentation
 
-> **Category:** AIFFEL training project  
-> **Curriculum unit:** AIFFEL Research Program / MainQuest / Quest02  
+> **Category:** AIFFEL training project
+> **Curriculum unit:** AIFFEL Research Program / MainQuest / Quest02
 > **Artifact:** [`lung-xray-unet-encoder-comparison.ipynb`](lung-xray-unet-encoder-comparison.ipynb)
 
 ## Project scope

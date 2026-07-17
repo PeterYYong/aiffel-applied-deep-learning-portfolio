@@ -1,7 +1,7 @@
 # Abstractive and Extractive News Summarization
 
-> **Category:** Training project  
-> **Curriculum unit:** AIFFEL Research Program / Exploration / Ex06  
+> **Category:** Training project
+> **Curriculum unit:** AIFFEL Research Program / Exploration / Ex06
 > **Notebook:** [`abstractive-extractive-news-summarization.ipynb`](abstractive-extractive-news-summarization.ipynb)
 
 This course project compares two approaches to English news summarization using the `news_summary_more.csv` dataset from the [News Summary dataset repository](https://github.com/sunnysai12345/News_Summary).
