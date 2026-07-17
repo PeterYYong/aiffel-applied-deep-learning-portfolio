@@ -2,7 +2,7 @@
 
 ## Canonical public portfolio
 
-`PeterYYong/AIFFEL_quest_rs` is the canonical AIFFEL repository currently used for the public researcher portfolio. The suggested public-facing repository name is `aiffel-applied-deep-learning-portfolio`; changing the GitHub repository slug is a repository-settings action separate from the content restructuring.
+`PeterYYong/aiffel-applied-deep-learning-portfolio` is the canonical public AIFFEL training portfolio. It contains the curated, topic-based navigation layer and the provenance documentation used for researcher-facing presentation.
 
 ## Path migration
 
